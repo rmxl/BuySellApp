@@ -1,0 +1,87 @@
+/* Define CSS variables to replace SCSS variables */
+:root {
+  --green-dark: #35c3c1;
+  --green-light: #00d6b7;
+}
+
+.container_register {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Roboto", helvetica, arial, sans-serif;
+  font-size: 1.5em;
+}
+
+.site_name_register {
+  text-wrap: wrap;
+  max-height: 10vh;
+  padding-top: 0.3em;
+  font-size: 1.8em;
+  text-align: center;
+  background-color: #2b2b2b;
+  border-bottom: 0.05em solid var(--green-dark);
+  width: 100vw;
+}
+.register-form_register {
+  padding: 2em;
+  position: relative;
+  background: rgba(0, 0, 0, 0.15);
+  border-top: 0.1em solid var(--green-dark);
+  margin-bottom: 2vh;
+}
+
+@media screen and (min-width: 600px) {
+  .register-form_register {
+    width: 50vw;
+    max-width: 15em;
+  }
+}
+
+.input_field_register {
+  display: flex;
+  margin-bottom: 1em;
+}
+
+.svg-img_register {
+  width: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--gray-light);
+  cursor: pointer;
+}
+
+.input_text_register {
+  flex: 1;
+  padding: 1em;
+  border: 0;
+  color: var(--gray);
+  font-size: 1rem;
+}
+
+.input_text_register:focus {
+  outline: none;
+}
+
+.submit_register {
+  display: block;
+  padding: 1em;
+  width: 105%;
+  background: linear-gradient(to right, var(--green-dark), var(--green-light));
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.75em;
+  font-weight: 600;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.submit_register:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: var(--gray);
+}

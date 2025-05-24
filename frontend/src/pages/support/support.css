@@ -1,0 +1,74 @@
+.overlord_container_support {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.input_support {
+  align-self: center;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+
+  width: 90%;
+  outline: none;
+}
+
+.input_support:focus {
+  border: 1px solid #000;
+}
+
+.send_button_support {
+  align-self: center;
+  padding: 10px;
+  margin: 10px;
+  width: 5%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.send_button_support:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.messages_support {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  height: 70%;
+}
+
+.message_support {
+  align-self: center;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  width: 60%;
+  outline: none;
+  background-color: #100f0f;
+  font-family: "Roboto", sans-serif;
+}
+.user_message {
+  /*align the user message to the right*/
+  align-self: flex-end;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.chatbot_message {
+  /*align the chatbot message to the left*/
+  align-self: flex-start;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}

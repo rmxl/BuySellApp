@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8%;
+  align-items: center;
+  background-color: hsl(0, 1%, 19%);
+  overflow: hidden;
+}
+
+.site_name {
+  flex: 1;
+  font-size: 2em;
+}
+
+.site_name:hover {
+  cursor: pointer;
+}
+
+.nav_button {
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+  flex-wrap: nowrap;
+  padding: 0.5%;
+  margin: 0.5%;
+  transition: transform 0.2s ease;
+  outline: none;
+  border-style: none;
+  background-color: hsl(0, 1%, 19%);
+}
+
+.nav_button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.nav_links {
+  flex: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  min-width: 40%;
+}

@@ -1,0 +1,49 @@
+.filter_bar {
+  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.filter_bar p {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #f0eeee;
+}
+
+.multi_select {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.category_orders {
+  padding: 8px 15px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  color: #555;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.category_orders:hover {
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+.category_orders.selected {
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+.orders_results p {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 1em;
+}
