@@ -45,3 +45,99 @@ A full-featured e-commerce platform built with React and Node.js, designed for t
 - Clean, modern, and intuitive UI
 - Protected routes for secure navigation
 - Centralized dashboard with quick access to features
+## Getting Started
+
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn
+- MongoDB Atlas account (or local MongoDB setup)
+- Google Generative AI API key
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or higher)
+- npm or yarn package manager
+- MongoDB Atlas account (or local MongoDB installation)
+- Google Generative AI API key
+
+---
+
+## Installation
+
+#### Clone the Repository
+
+```bash
+git clone <repository-url>
+cd Buy-Sell-Rent-Website
+```
+
+#### Install Frontend Dependencies
+
+```bash
+cd frontend
+npm install
+```
+
+#### Install Backend Dependencies
+
+```bash
+cd ../backend
+npm install
+```
+
+---
+
+### Environment Setup
+
+Create a `.env` file in the `backend` directory:
+
+```env
+JWT_SECRET=your_jwt_secret_key_here
+MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/shopspot
+GEMINI_API_KEY=your_google_generative_ai_api_key
+CAS_URL=your_cas_url_if_using_cas_authentication
+```
+
+---
+
+### Database Configuration
+
+Update the MongoDB connection string in `backend/index.js`:
+
+```js
+const mongoURI = "your_mongodb_connection_string";
+```
+
+---
+
+### Running the Application
+
+#### Start the Backend Server
+
+```bash
+cd backend
+npm run dev
+```
+
+- Backend will start on: `http://localhost:5000`
+
+#### Start the Frontend Development Server
+
+```bash
+cd frontend
+npm run dev
+```
+
+- Frontend will start on: `http://localhost:5173`
+
+---
+
+### Access the Application
+
+Open your browser and navigate to:
+
+```
+http://localhost:5173
+```
+
