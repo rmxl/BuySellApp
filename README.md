@@ -45,13 +45,7 @@ A full-featured e-commerce platform built with React and Node.js, designed for t
 - Clean, modern, and intuitive UI
 - Protected routes for secure navigation
 - Centralized dashboard with quick access to features
-## Getting Started
-
-### Prerequisites
-- Node.js (v16 or higher)
-- npm or yarn
-- MongoDB Atlas account (or local MongoDB setup)
-- Google Generative AI API key
+- 
 ## Getting Started
 
 ### Prerequisites
